@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color:aquamarine;
+  padding: 10px;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-size:x-large;
+  font-weight: bolder;
+  
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+a{
+  text-decoration: none;
+}
+li:hover{
+  font-style: italic;
+}
